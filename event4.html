@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UtsavManch Registration Form ( ITER )- Meaning a platform for festivals or celebrations</title>
+    <meta charset="utf-8">
+    <meta name="author" content="templatemo">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background: linear-gradient(to bottom right, #c6fdbf 3%, #012ac0 96%) !important;
+        }
+
+        section {
+
+            padding: 20px;
+            margin: 0px auto;
+            margin-top: 250px !important;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(225, 220, 220, 0.1);
+            width: 90%;
+            max-width: 1200px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #36054b;
+            margin-bottom: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: #e0f3f7;
+            font-weight: bolder;
+            margin: 20px 0;
+            box-shadow: 0px 1px 2px 3px rgb(30, 29, 29);
+        }
+
+        table th, table td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+        }
+
+        table th {
+            background-color: #3d0559;
+            color: white;
+            text-transform: uppercase;
+        }
+        table th:hover {
+            background-color: #052e59;
+                    }       
+                         table td {
+            font-size: 14px;
+        }
+
+        button {
+            padding: 8px 12px;
+            background-color: #3d0559;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #0a72ab;
+        }
+
+        .form-container {
+            display: none;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        label {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        input, select, textarea {
+            padding: 10px;
+            font-size: 14px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 100%;
+        }
+
+        textarea {
+            resize: none;
+        }
+
+        button[type="submit"] {
+            align-self: flex-start;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <header class="header-area header-sticky" >
+    <div class="container">
+        <div class="row" >
+            <div class="col-12" >
+                <nav class="main-nav">
+                 
+                    <a href="index.html" class="logo">
+                        <img src="assets/images/logo.png" alt="">
+                    </a>
+            
+                    <ul class="nav">
+                        <li><a href="index.html" class="active">Home</a></li>
+                        <li><a href="explore.html">Explore</a></li>
+                        <li><a href="details.html">Item Details</a></li>
+                        <li><a href="author.html">Author</a></li>
+                        <li><a href="create.html">Create Yours</a></li>
+                    </ul>   
+                    <a class='menu-trigger'>
+                        <span>Menu</span>
+                    </a>
+
+                </nav>
+            </div>
+        </div>
+    </div>
+  </header>
+    <section>
+        <h2>IIT BBSR Event 2025</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Club Name</th>
+                    <th>Event Name</th>
+                    <th>Contact Number</th>
+                    <th>Apply</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2025-12-12</td>
+                    <td>Singing Club</td>
+                    <td>SuruSangram</td>
+                    <td>9876543212</td>
+                    <td><button onclick="showForm('cultural')">Apply</button></td>
+                </tr>
+               
+                <tr>
+                    <td>2025-01-15</td>
+                    <td>E-cell Club</td>
+                    <td>Hackathon</td>
+                    <td>9876543211</td>
+                    <td><button onclick="showForm('tech')">Apply</button></td>
+                </tr>
+                <tr>
+                    <td>2025-01-21</td>
+                    <td>Dance Club</td>
+                    <td>Cultural Night</td>
+                    <td>9876543210</td>
+                    <td><button onclick="showForm('cultural')">Apply</button></td>
+                </tr>
+                <tr>
+                    <td>2025-01-18</td>
+                    <td>Coding Hub Club</td>
+                    <td>Ideathon </td>
+                    <td>9876543213</td>
+                    <td><button onclick="showForm('tech')">Apply</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section class="form-container" id="form-container">
+        <h2>Event Registration Form</h2>
+        <form id="registration-form" action="https://formspree.io/f/xqakorlr" method="POST">
+            <label for="username">Full Name:</label>
+            <input type="text" id="username" name="username" placeholder="Enter your full name" required>
+
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender" required>
+                <option value="">-- Select Gender --</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+            </select>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="_replyto" placeholder="Enter your email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+
+            <label for="event">Event Interested:</label>
+            <select id="event" name="event" required>
+                <option value="">-- Select an event --</option>
+            </select>
+
+            <label for="college">College:</label>
+            <input type="text" id="college" name="college" placeholder="Enter your college name" required>
+
+            <label for="university">University:</label>
+            <input type="text" id="university" name="university" placeholder="Enter your university name" required>
+
+            <label for="details">AnyThing You Want to Say About the Event:</label>
+            <textarea id="details" name="details" rows="4" placeholder="You Want to Say About the Event"></textarea>
+
+            <button type="submit">Register</button>
+        </form>
+    </section>
+    <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <p>Copyright © 2024 <a href="#">UtsavManch</a>  All rights reserved.
+              &nbsp;&nbsp;
+              Designed by <a title="HTML CSS Templates" rel="sponsored" href="" target="_blank">Ankit</a></p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    <script>
+        function showForm(type) {
+            const formContainer = document.getElementById('form-container');
+            const eventSelect = document.getElementById('event');
+            formContainer.style.display = 'block';
+
+            if (type === 'cultural') {
+                eventSelect.innerHTML = `
+                    <option value="">-- Select an event --</option>
+                    <option value="Dance Competition">Dance Competition</option>
+                    <option value="Singing Competition">Singing Competition</option>
+                    <option value="Drama Performance">Drama Performance</option>
+                `;
+            } else if (type === 'tech') {
+                eventSelect.innerHTML = `
+                    <option value="">-- Select an event --</option>
+                    <option value="Hackathon">Hackathon</option>
+                    <option value="Tech Expo">Tech Expo</option>
+                    <option value="AI Workshop">AI Workshop</option>
+                `;
+            }
+
+            window.scrollTo({ top: formContainer.offsetTop, behavior: 'smooth' });
+        }
+    </script>
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+  <script src="assets/js/isotope.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+
+  <script src="assets/js/tabs.js"></script>
+  <script src="assets/js/popup.js"></script>
+  <script src="assets/js/custom.js"></script>
+</body>
+</html>
