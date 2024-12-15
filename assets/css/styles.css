@@ -1582,7 +1582,7 @@ Explore Style
 
 /* 
 ---------------------------------------------
-Secdhule Page Style
+Details Page Style
 --------------------------------------------- 
 */
 
@@ -1814,6 +1814,193 @@ Secdhule Page Style
 }
 
 
+/* 
+---------------------------------------------
+Author Page Style
+--------------------------------------------- 
+*/
+
+.author-page {
+  background-image: url(../images/dark-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 120px 0px 120px 0px;
+  position: relative;
+}
+
+.author-page .author {
+  display: flex;
+}
+
+.author-page .author h4 {
+  margin-top: 60px;
+  font-size: 20px;
+  margin-left: 30px;
+}
+
+.author-page .author h4 a {
+  font-size: 15px;
+  color: #7453fc;
+}
+
+.author-page .right-info {
+  background-color: #282b2f;
+  border: 1px solid #404245;
+  padding: 20px 30px;
+  border-radius: 20px;
+  margin-left: 100px;
+}
+
+.author-page .right-info .info-item {
+  margin-bottom: 20px;
+}
+
+.author-page .right-info i {
+  color: #7453fc;
+  font-size: 22px;
+}
+
+.author-page .right-info h6 {
+  font-size: 20px;
+  color: #7453fc;
+  margin-top: 4px;
+}
+
+.author-page .right-info h6 em {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  color: #fff;
+}
+
+.author-page .right-info h5 {
+  font-size: 20px;
+  color: #afafaf;
+  margin-top: 10px;
+}
+
+.author-page .right-info .main-button a {
+  width: 100%;
+  text-align: center;
+}
+
+.author-page .section-heading {
+  margin-top: 80px;
+  text-align: left;
+}
+
+.author-page .section-heading .line-dec {
+  margin-left: 0;
+}
+
+.author-page .item span.author {
+  display: inline-flex;
+  width: 100%;
+}
+
+.author-page .item span.author img {
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+.author-page .item img {
+  margin-top: -32px;
+  position: relative;
+  z-index: 1;
+}
+
+.author-page .item h4 {
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.author-page .item .line-dec {
+  width: 100%;
+  height: 1px;
+  background-color: rgba(255,255,255,0.2);
+  margin: 30px 0px;
+}
+
+.author-page .item {
+  background-color: #282b2f;
+  border: 1px solid #404245;
+  padding: 30px;
+  border-radius: 20px;
+  position: relative;
+  margin-bottom: 52px;
+}
+
+.author-page .item span {
+  color: #fff;
+  display: inline-block;
+  font-size: 15px;
+}
+
+.author-page .item span strong {
+  font-size: 20px;
+}
+
+.author-page .item span.category {
+  text-align: right;
+}
+
+.author-page .item .main-button {
+  margin-top: 20px;
+  margin-bottom: -60px;
+  text-align: center;
+}
+
+
+/* 
+---------------------------------------------
+Create Page Style
+--------------------------------------------- 
+*/
+
+#contact {
+  background-color: #37393c;
+  border-radius: 20px;
+  padding: 60px 30px;
+  margin-bottom: 120px;
+}
+
+#contact input {
+  width: 100%;
+  height: 46px;
+  text-align: left;
+  padding: 0px 15px;
+  background-color: #282b2f;
+  border: 1px solid #404245;
+  margin-bottom: 30px;
+  font-weight: 500;
+  color: #afafaf;
+}
+
+#contact input::placeholder {
+  color: #afafaf;
+}
+
+#contact label {
+  font-size: 15px;
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+#contact input#file {
+  padding: 8px 0px;
+  background-color: transparent;
+  border: none;
+  border-radius: 0px;
+}
+
+#contact button {
+  margin-top: 30px;
+  width: 100%;
+  text-align: center;
+}
+
 
 
 
@@ -1898,6 +2085,9 @@ body {
   }
 }
 
+@media (max-width: 1200px) {
+  
+}
 .main-nav{
   background: linear-gradient(to bottom right, #c94bf4 3%, #33daff 96%) !important;
 }
