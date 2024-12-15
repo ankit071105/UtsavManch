@@ -1,4 +1,4 @@
-![Screenshot 2024-12-15 at 8 21 28 PM](https://github.com/user-attachments/assets/3950c65e-8741-4831-a9d5-28e41ed3dc4c)![Build-A-Site](https://i.imgur.com/nZPQ9If.png)
+![Build-A-Site](https://i.imgur.com/nZPQ9If.png)
 # **UtsavManch** (kumarankit11458)
 
 **Your Ultimate Platform for Club Events, RSVPs, and Friendly Competitions**
