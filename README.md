@@ -20,6 +20,7 @@ UtsavManch is a dynamic platform designed to make club events, RSVPs, and compet
 - **Fifth Commit**: Added the Organize Event page.
 - **Sixth/Seventh Commit**: Added the Main Page along with CSS, JS, jQuery, and Bootstrap design.
 - **Eigth/Ninth/Tenth Commit**: Added some CSS and added banner page in Main Page and change in ReadMe File.
+-**Eleven/Twelve Commit**: Added Categories section which enhance the home page and Css Files
 
 ## Live Site
 
@@ -72,35 +73,5 @@ Explore the live site here: [UtsavManch](https://utsav-manch.vercel.app/)
 ├── schedule.html
 ├── create.html
 └── README.md
-    
 ```
-
-## Contributing
-
-We welcome contributions to UtsavManch! To contribute:
-
-1. Fork the repository.
-2. Create a new branch for your feature/bug fix:
-
-   ```bash
-   git checkout -b feature/your-feature-name
-   ```
-
-3. Commit your changes with a descriptive message:
-
-   ```bash
-   git commit -m "Add your message here"
-   ```
-
-4. Push to your fork:
-
-   ```bash
-   git push origin feature/your-feature-name
-   ```
-
-5. Create a pull request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
