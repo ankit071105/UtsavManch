@@ -164,7 +164,38 @@ body {
   border: 1px solid #fff;
 }
 
+section {
+  margin-top: 120px;
+}
 
+.section-heading {
+  position: relative;
+  z-index: 2;
+  margin-top: 0px;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.section-heading .line-dec {
+  width: 100px;
+  height: 2px;
+  background-color: #7453fc;
+  margin: 0 auto 30px auto;
+}
+
+.section-heading h2 {
+  margin-top: 10px;
+  line-height: 36px;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.section-heading h2 em {
+  color: #7453fc;
+  font-style: normal;
+}
 
 /* 
 ---------------------------------------------
@@ -658,7 +689,7 @@ Header Style
 
 /* 
 ---------------------------------------------
-Main Banner Style
+Banner Style
 --------------------------------------------- 
 */
 
@@ -740,12 +771,184 @@ Main Banner Style
   opacity: 1;
 }
 
-.main-nav{
-  background: linear-gradient(to bottom right, #c94bf4 3%, #33daff 96%) !important;
-}
+
 /* 
 ---------------------------------------------
 Categories & Collections Style
 --------------------------------------------- 
 */
 
+.categories-collections {
+  background-image: url(../images/dark-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 120px 0px 150px 0px;
+  position: relative;
+}
+
+.categories-collections:after {
+  background-image: url(/assets/images/category-collection-dec.png);
+  width: 300px;
+  height: 282px;
+  position: absolute;
+  bottom: 0;
+  right: 30px;
+  content: '';
+}
+
+.categories .item {
+  background-color: #282b2f;
+  text-align: center;
+  padding: 30px;
+  border-radius: 20px;
+  border: 1px solid #404245;
+  position: relative;
+}
+
+.categories .item .icon {
+  width: 62px;
+  height: 62px;
+  display: inline-block;
+  text-align: center;
+  line-height: 62px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.categories .item .icon img {
+  max-width: 31px;
+}
+
+.categories .item h4 {
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+.categories .item .icon-button a {
+  display: inline-block;
+  width: 46px;
+  height: 46px;
+  line-height: 46px;
+  background-color: #fff;
+  color: #7453fc;
+  border-radius: 50%;
+  font-size: 18px;
+  position: absolute;
+  left: 50%;
+  bottom: -23px;
+  transform: translateX(-23px);
+  transition: all .3s;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.categories .item .icon-button a:hover {
+  background-color: #7453fc;
+  color: #fff;
+}
+
+.categories .item:hover .icon-button a {
+  visibility: visible;
+  opacity: 1;
+}
+
+.collections {
+  margin-top: 140px;
+}
+
+.collections .item img {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.collections .item .down-content {
+  background-color: #282b2f;
+  border: 1px solid #404245;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding: 30px;
+}
+
+.collections .item .down-content h4 {
+  font-size: 20px;
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.collections .item {
+  padding-bottom: 60px;
+}
+
+.collections .item span {
+  color: #fff;
+  display: inline-block;
+  width: 48%;
+  font-size: 15px;
+}
+
+.collections .item span strong {
+  font-size: 20px;
+}
+
+.collections .item span.category {
+  text-align: right;
+}
+
+.collections .item .main-button a {
+  width: 100%;
+  text-align: center;
+}
+
+.collections .item .main-button {
+  margin-top: 20px;
+  margin-bottom: -60px;
+}
+
+.collections .item .main-button a:hover {
+  background-color: #fff;
+  border: 1px solid #fff;
+  color: #7453fc;
+}
+
+.collections .owl-nav {
+  position: absolute;
+  width: 100%;
+  margin: 0 auto;
+  top: 50%;
+  transform: translateY(-50px);
+  text-align: center;
+}
+
+.collections .owl-nav .owl-prev {
+  position: absolute;
+  left: -23px;
+}
+
+.collections .owl-nav .owl-next {
+  position: absolute;
+  right: -23px;
+}
+
+.collections .owl-nav .owl-prev span,
+.collections .owl-nav .owl-next span  {
+  width: 46px;
+  height: 46px;
+  line-height: 46px;
+  font-size: 24px;
+  display: inline-block;
+  color: #7453fc;
+  background-color: #fff;
+  border-radius: 50%;
+  opacity: 1;
+  transition: all .3s;
+}
+
+.collections .owl-nav .owl-prev span:hover,
+.collections .owl-nav .owl-next span:hover {
+  opacity: 1;
+}
+.main-nav{
+  background: linear-gradient(to bottom right, #c94bf4 3%, #33daff 96%) !important;
+}
