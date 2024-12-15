@@ -19,6 +19,7 @@ UtsavManch is a dynamic platform designed to make club events, RSVPs, and compet
 - **Third/Fourth Commit**: Created a Page folder and added a Bootstrap folder.
 - **Fifth Commit**: Added the Organize Event page.
 - **Sixth/Seventh Commit**: Added the Main Page along with CSS, JS, jQuery, and Bootstrap design.
+- **Eigth/Ninth/Tenth Commit**: Added some CSS and added banner page in Main Page and change in ReadMe File.
 
 ## Live Site
 
