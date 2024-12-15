@@ -1,4 +1,4 @@
-![Build-A-Site](https://i.imgur.com/nZPQ9If.png)
+![Screenshot 2024-12-15 at 8 21 28 PM](https://github.com/user-attachments/assets/3950c65e-8741-4831-a9d5-28e41ed3dc4c)![Build-A-Site](https://i.imgur.com/nZPQ9If.png)
 # **UtsavManch** (kumarankit11458)
 
 **Your Ultimate Platform for Club Events, RSVPs, and Friendly Competitions**
@@ -34,6 +34,7 @@ Explore the live platform here:
 4. **Sixth/Seventh Commit**: Finalized the Main Page with CSS, JS, jQuery, and Bootstrap design.  
 5. **Eighth/Ninth/Tenth Commit**: Updated CSS and added the banner page in the Main Page.  
 6. **Eleventh/Twelfth Commit**: Improved the home page with a Categories section and additional CSS files.
+7.  **Thirtheen/Fourtheen Commit**: Improved the home page with a Benefits section and additional CSS files & Remove Pre loader For Now.
 
 ---
 
@@ -105,19 +106,22 @@ Open the index.html file in your browser to view the project locally.
 
 ### **1. Home Page**
 
+![Screenshot 2024-12-15 at 8 21 28 PM](https://github.com/user-attachments/assets/bfebd057-df66-4604-8f3b-572c1eda4aff)
 
 *Categories Section on the home page showcasing various events.*
 
 ---
 
 ### **2. Organize Events Page**
+![Screenshot 2024-12-15 at 8 25 04 PM](https://github.com/user-attachments/assets/8ba0ada9-fac3-42cb-94f7-ec7398fd39b0)
 
 
 *Effortlessly create, edit, and manage events through the "Organize Event" page.*
 
 ---
 
-### **3. Event Page**
+### **3.  Create Event Page**
+![Screenshot 2024-12-15 at 8 25 23 PM](https://github.com/user-attachments/assets/8f43def5-a306-41cb-9c86-20ee673154bf)
 
 
 *Detailed event information with supporting media assets.*
