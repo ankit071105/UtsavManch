@@ -53,16 +53,25 @@ Explore the live site here: [UtsavManch](https://utsav-manch.vercel.app/)
 ```
 ├── assets
 │   ├── images
-│   └── other assets
-├── css
-├── js
+│   └── webfonts
+|   ├── css
+|   ├── js
 ├── jquery
-├── bootstrap
-├── pages
-│   ├── event-pages
-│   └── organise-event.html
+|── Vendor
+|   ├── bootstrap
+|      ├── CSS
+|      ├── JS
+|   ├── JQuery
+├── event1.html
+├── event2.html
+├── event3.html
+├── event4.html
+├── oragnise.html
 ├── index.html
+├── schedule.html
+├── create.html
 └── README.md
+    
 ```
 
 ## Contributing
