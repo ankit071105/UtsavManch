@@ -36,6 +36,7 @@ Explore the live platform here:
 6. **Eleventh/Twelfth Commit**: Improved the home page with a Categories section and additional CSS files.
 7.  **Thirtheen/Fourtheen Commit**: Improved the home page with a Benefits section and additional CSS files & Remove Pre loader For Now.
 8.  **Fifteen to Twenty Commit**: Updated Js Code and Added Pre Loader
+9.   **Twenty One  Commit**: Added Complete Code for Css and Js and added required images 
 
 ---
 
@@ -152,5 +153,4 @@ For feedback, inquiries, or suggestions, feel free to reach out:
 
 ---
 
-Feel free to contribute to this project by forking the repository and submitting pull requests. 😊
 
