@@ -696,9 +696,9 @@ Banner Style
 .main-banner {
   background-image: url(../images/banner-bg.jpg);
   background-repeat: no-repeat;
-  background-position: center center;
   background-size: cover;
-  padding-top: 290px;
+  background-position: center;
+  padding-top: 390px;
   padding-bottom: 240px;
   background-color: #2a2a2a;
 }
