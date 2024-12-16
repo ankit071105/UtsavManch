@@ -108,14 +108,20 @@ Open the index.html file in your browser to view the project locally.
 
 ### **1. Home Page**
 
-![Screenshot 2024-12-15 at 8 21 28 PM](https://github.com/user-attachments/assets/bfebd057-df66-4604-8f3b-572c1eda4aff)
+![Screenshot 2024-12-16 at 11 38 43 AM](https://github.com/user-attachments/assets/46582052-6152-4310-bf22-9a1db431637f)
+
 
 *Categories Section on the home page showcasing various events.*
 
 ---
+### **3. Benefit Section Page**
+
+![Screenshot 2024-12-16 at 11 38 59 AM](https://github.com/user-attachments/assets/756c02d2-0caa-4075-9658-8d1a174eaa6e)
+
 
 ### **2. Organize Events Page**
-![Screenshot 2024-12-15 at 8 25 04 PM](https://github.com/user-attachments/assets/8ba0ada9-fac3-42cb-94f7-ec7398fd39b0)
+
+![Screenshot 2024-12-16 at 11 39 08 AM](https://github.com/user-attachments/assets/d58ba801-6ace-4153-aa21-f0de3939178c)
 
 
 *Effortlessly create, edit, and manage events through the "Organize Event" page.*
@@ -123,8 +129,9 @@ Open the index.html file in your browser to view the project locally.
 ---
 
 ### **3.  Create Event Page**
-![Screenshot 2024-12-15 at 8 25 23 PM](https://github.com/user-attachments/assets/8f43def5-a306-41cb-9c86-20ee673154bf)
 
+
+![Screenshot 2024-12-16 at 11 39 28 AM](https://github.com/user-attachments/assets/7c67ac40-2735-4bed-a399-872ba56b591f)
 
 *Detailed event information with supporting media assets.*
 
