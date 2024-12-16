@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="UtsavManch">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Google font link -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+   <!-- Google icon Link -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="assets/images/logo1.jpeg" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <title>UtsavManch (Service Page) </title>
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/service.css">
+    <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+  </head>
+
+<body>
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav class="main-nav">
+                    <!-- ***** Logo Start ***** -->
+                    <a href="index.html" class="logo">
+                        <img src="assets/images/logo.png" alt="">
+                    </a>
+                    <ul class="nav">
+                      <li><a href="index.html" class="active">Home</a></li>
+                      <li><a href="organise.html" style="color: aliceblue !important;">Organize Event</a></li>
+                      <li><a href="schedule.html" style="color: aliceblue !important;">schedule</a></li>
+                      <li><a href="contact.html" style="color: aliceblue !important;">Service</a></li>
+                      <li><a href="create.html" style="color: aliceblue !important;">Create Event</a></li>
+                  </ul>   
+                  <button id="theme-toggle" style="background-color: transparent;">
+                    <div class="bx bx-moon" id="darkMode-icon" style="color: var(--main-color);"></div>
+                </button>  
+                <div id="menu-icon" class="bx bx-menu"></div>
+                    <!-- ***** Menu End ***** -->
+                </nav>
+            </div>
+        </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+<script>
+     document.getElementById('theme-toggle').onclick = function() {
+        document.body.classList.toggle('dark-mode');
+        var icon = document.getElementById('darkMode-icon');
+        if (document.body.classList.contains('dark-mode')) {
+            icon.classList.remove('bx-moon');
+            icon.classList.add('bx-sun');
+        } else {
+            icon.classList.remove('bx-sun');
+            icon.classList.add('bx-moon');
+        }
+    };
+    
+    document.getElementById('menu-icon').onclick = function() {
+        var navbar = document.querySelector('.navbar');
+        navbar.classList.toggle('active');
+    };
+    </script>
+</script>
+
+  <div class="container">
+    <h1 style="font-size: 3rem; color: rgb(71, 30, 100);">Connect With Us</h1>
+    <div class="map-container">
+       <!-- 
+        ---------------------------------------------
+        Google  Frameworks Used 
+        --------------------------------------------- 
+         -->
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126915.40242030277!2d85.7892607!3d20.2498709!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a19a7a3b9692fff%3A0x87cd0a356bbc39ce!2sITER%2C%20Siksha%20'O'%20Anusandhan!5e0!3m2!1sen!2sin!4v1689514124518!5m2!1sen!2sin"
+            allowfullscreen>
+        </iframe>
+    </div>
+    <div class="contact-links">
+        <a href="mailto:ankitkumar@gmail.com" class="email-link">Email Us</a>
+        <a href="https://wa.me/919031358194" target="_blank">Chat on WhatsApp</a>
+    </div>
+    
+    <!-- Contact Form -->
+    <form id="contact-form">
+        <h2 style="color: black;">Contact Us</h2>
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+        <input type="submit" value="Send Message">
+    </form>
+    
+    <script>
+        document.getElementById('contact-form').onsubmit = function(e) {
+            e.preventDefault(); // Prevent the default form submission
+            
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const message = document.getElementById('message').value;
+    
+            const whatsappNumber = '9031358194';
+            const whatsappMessage = `*Name:* ${encodeURIComponent(name)}%0A*Email:* ${encodeURIComponent(email)}%0A*Message:* ${encodeURIComponent(message)}`;
+    
+            // Redirect to WhatsApp
+            window.open(`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`, '_blank');
+        };
+    </script>
+    
+</div>
+
+<section class="portfolio" id="videos">
+    <h2 class="heading">Crew <span>Champions</span></h2>
+
+    <div class="portfolio-container">
+        <div class="portfolio-box">
+            <img src="assets/images/ankit.jpeg" alt="">
+            <div class="portfolio-layer">
+                <h4>Ankit Kumar</h4>
+                <p>Software Developer</p>
+                <a href="https://www.linkedin.com/in/ankitkumar0705/"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+ 
+        <div class="portfolio-box">
+            <img src="assets/images/avnish.jpeg" alt="">
+            <div class="portfolio-layer">
+                <h4>Avnish Kumar</h4>
+                <p>Hardware Developer</p>
+                <a href="https://www.linkedin.com/in/avnish~kumar/"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="containers">
+      <div class="row">
+        <div class="col-lg-12">
+          <p>Copyright © 2024 <a href="https://utsav-manch.vercel.app/">UtsavManch</a>  All rights reserved.
+          &nbsp;&nbsp;
+          Designed by <a title="#" rel="sponsored" href="https://www.linkedin.com/in/ankit071105/" target="_blank">Ankit</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/js/isotope.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+  <script src="assets/js/tabs.js"></script>
+  <script src="assets/js/popup.js"></script>
+  <script src="assets/js/custom.js"></script>
+
+
+
+ </body>
+ </html>
