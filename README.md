@@ -35,6 +35,7 @@ Explore the live platform here:
 5. **Eighth/Ninth/Tenth Commit**: Updated CSS and added the banner page in the Main Page.  
 6. **Eleventh/Twelfth Commit**: Improved the home page with a Categories section and additional CSS files.
 7.  **Thirtheen/Fourtheen Commit**: Improved the home page with a Benefits section and additional CSS files & Remove Pre loader For Now.
+8.  **Fifteen to Twenty Commit**: Updated Js Code and Added Pre Loader
 
 ---
 
